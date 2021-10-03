@@ -1,0 +1,1 @@
+The Landing Page project will help to revisit all the skills acquired in The Odin Project, including HTML, CSS and Flex.
