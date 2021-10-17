@@ -1,21 +1,36 @@
-.header {
-    background-color: #1F2937;
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
     color: #F9FAF8;
 }
 
-.nav-bar {
+/* Navigation Bar */
+
+.navbar {
+    margin: 5px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;   
 }
 
 .logo {
     font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 .right-items {
     display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
 ul {
@@ -27,15 +42,88 @@ a {
     text-decoration: none;
 }
 
-.main {
+/* Hero section */
+
+.hero {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0px;
+}
+
+.cover-image {
+    width: 500px;
+    height: auto;
+}
+
+.heroleft {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+    gap: 24px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+h1 {
+    margin: 0px;
 }
 
 .secondary {
     color: #E5E7EB;
+    font-size: 18px;
+    padding-right: 20px;
 }
 
-.cover-image {
-    height: 200px;
-    width: auto;
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    width: 130px;
+    height: 40px;
+}
+
+/* Information section */
+
+.information {
+    background-color: white;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.subtext {
+    color: #1F2937;
+    width: 150px;
+    text-align: center;
 }
