@@ -127,3 +127,85 @@ h2 {
     width: 150px;
     text-align: center;
 }
+
+/* Quote section */
+
+.quote {
+    background-color: #E5E7EB;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.quote-box {
+    width: 720px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;   
+    color: #1F2937;
+}
+
+.quote-person {
+    color: #1F2937;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: auto;
+}
+
+/* Call to action */
+
+.cta {
+    height: 350px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 820px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-text {
+    color: white;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+.its-time {
+    font-weight: bold;
+}
+
+.button-cta {
+    border: 2px solid white;
+    margin-right: 50px;
+}
+
+/* Footer */
+
+.footer {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+}
