@@ -88,6 +88,13 @@ button {
     border: none;
     width: 130px;
     height: 40px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: white;
+    color: #3882F6;
 }
 
 /* Information section */
@@ -114,7 +121,7 @@ h2 {
     gap: 40px
 }
 
-.image {
+.box img {
     width: 150px;
     height: 150px;
     border: 3px solid #3882F6;
@@ -201,11 +208,6 @@ h2 {
 .footer {
     height: 70px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-}
-
-.footer-text {
-    display: flex;
-    justify-content: center;
+    align-items: center;
 }
